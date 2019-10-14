@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/mediatek/KW_C8_LFLT
+LOCAL_PATH := device/mediatek/C10_LFLT
 
 # Architecture
 TARGET_ARCH := arm
@@ -52,7 +52,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # TWRP Configuration
 TW_THEME := watch_mdpi
-TW_ROUND_SCREEN := true
 TW_SCREEN_BLANK_ON_BOOT := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_INCLUDE_CRYPTO := true
